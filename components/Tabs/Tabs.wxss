@@ -1,0 +1,14 @@
+.tabs_title {
+  display: flex;
+}
+.tabs_item {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 15rpx 0;
+}
+.active {
+  border-bottom: 5rpx solid currentColor;
+  color: var(--themeColor);
+}
